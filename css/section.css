@@ -1,0 +1,15 @@
+.section {
+    background: white;
+    margin: 10px;
+    box-shadow: 10px grey;
+}
+
+.section__header {
+font-size:20px;
+padding: 10px;
+border-bottom: 2px solid lightgrey;
+}
+
+.section__content {
+padding: 10px;
+}
