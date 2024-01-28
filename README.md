@@ -5,7 +5,7 @@
 [Link to my website](https://mariakarowska.github.io/tasks-list/)
 
 ## Description
-This is simple apllication to create to-do list. You can add new tasks to your list and after that you can mark which task has been complited. If you want you can also delete any task.
+This is a simple apllication to create to-do list. You can add new tasks to your list and after that you can mark which task has been complited. If you want you can also delete any task.
 
 ## Techonolgies used:
 - HTML
