@@ -1,5 +1,12 @@
 {
-    const tasks = [];
+    const tasks = [
+        {content: "pojechać na zakupy",
+        done:true,
+        },
+        {content: "ugotować obiad",
+        done:false,
+        },
+    ];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -45,6 +52,7 @@
             <li 
             class="tasks_item js-tasks" 
             >
+    
             <button class="tasks__button tasks__button--toggleDone js-done">
              ${task.done ? "✔️" : ""}
             </button>

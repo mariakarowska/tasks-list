@@ -5,11 +5,11 @@
 }
 
 .section__header {
-font-size:20px;
-padding: 10px;
-border-bottom: 2px solid lightgrey;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 2px solid lightgrey;
 }
 
 .section__content {
-padding: 10px;
+    padding: 10px;
 }
