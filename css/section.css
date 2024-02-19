@@ -5,9 +5,24 @@
 }
 
 .section__header {
-    font-size: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
     padding: 10px;
+    align-items: center;
     border-bottom: 2px solid lightgrey;
+}
+
+@media (max-width: 767px) {
+ .section__header {
+    grid-template-columns: 1fr;
+ }
+}
+
+.section__title {
+    font-size: 20px;
+    margin: 0;
 }
 
 .section__content {

@@ -23,6 +23,11 @@
     padding: 0;
     height: 30px;
     width: 30px;
+    transition: background 0.4s;
+}
+
+.tasks.item--hidden {
+    display: none;
 }
 
 .tasks__button--toggleDone {
